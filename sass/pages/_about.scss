@@ -1,0 +1,19 @@
+#about {
+  margin: 0 100px;
+}
+
+.banner-footer {
+  margin: 40px 0 30px;
+  height: 222px;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: $color-background-secondary;
+  &__image {
+    min-width: 100%;
+    opacity: 0.7;
+  }
+}
+
+.about-infos {
+  margin: 0 100px;
+}

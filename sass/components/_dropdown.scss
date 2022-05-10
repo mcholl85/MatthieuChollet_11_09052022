@@ -1,0 +1,28 @@
+.dropdown {
+  margin-bottom: 30px;
+  &__heading {
+    background-color: $color-primary;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px 8px 16px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    &__title {
+      font-size: 24px;
+      color: $color-text-secondary;
+    }
+  }
+  &__paragraph {
+    background-color: #f7f7f7;
+    color: $color-primary;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 36px 18px 18px 18px;
+    position: relative;
+    top: -10px;
+    z-index: 4;
+  }
+}
