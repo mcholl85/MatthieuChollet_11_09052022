@@ -1,0 +1,18 @@
+.error {
+  margin-top: 100px;
+  text-align: center;
+  color: $color-primary;
+  &__heading {
+    font-size: 288px;
+  }
+  &__paragraph {
+    font-size: 36px;
+  }
+  &__back {
+    display: block;
+    margin: 150px 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
