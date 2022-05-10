@@ -1,9 +1,12 @@
+@import './utils/variables';
+
 @import './base/base';
 @import './base/typography';
 
 @import './components/error';
 @import './components/footer';
 @import './components/header';
+@import './components/article';
 
 @import './pages/about';
 @import './pages/home';

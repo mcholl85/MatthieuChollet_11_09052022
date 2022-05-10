@@ -1,0 +1,17 @@
+.header {
+  margin: 40px 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__navbar {
+    display: flex;
+    gap: 60px;
+    &__link {
+      font-size: 24px;
+      color: $color-primary;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
