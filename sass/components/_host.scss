@@ -1,0 +1,16 @@
+.host {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 24px;
+  &__name {
+    font-size: 18px;
+    color: $color-primary;
+  }
+  &__picture {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,10 @@
+.infos {
+  color: $color-primary;
+  &__title {
+    font-size: 36px;
+    line-height: 51px;
+  }
+  &__location {
+    font-size: 18px;
+  }
+}

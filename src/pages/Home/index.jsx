@@ -14,7 +14,7 @@ function Home() {
           <Article
             key={`${room.id}`}
             id={room.id}
-            picture={room.pictures[0]}
+            picture={room.cover}
             title={room.title}
           />
         ))}

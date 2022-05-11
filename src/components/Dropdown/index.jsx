@@ -15,7 +15,7 @@ function Dropdown({ title, paragraph }) {
           <img src={arrowClose} alt="close arrow" />
         )}
       </div>
-      {isOpen && <div className="dropdown__paragraph">{paragraph}</div>}
+      {isOpen && <p className="dropdown__paragraph">{paragraph}</p>}
     </div>
   );
 }

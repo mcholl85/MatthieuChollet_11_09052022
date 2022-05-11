@@ -5,7 +5,7 @@ import arrowNext from '../../assets/img/arrow_next.png';
 function Carrousel({ pictures }) {
   const [index, updateIndex] = useState(0);
 
-  return (
+  return pictures.length > 1 ? (
     <section className="carrousel">
       <button
         className="carrousel__next"
@@ -27,6 +27,14 @@ function Carrousel({ pictures }) {
       >
         <img src={arrowPrevious} alt="previous button" />
       </button>
+      <img
+        className="carrousel__picture"
+        src={pictures[index]}
+        alt="Carrousel room"
+      />
+    </section>
+  ) : (
+    <section className="carrousel">
       <img
         className="carrousel__picture"
         src={pictures[index]}
