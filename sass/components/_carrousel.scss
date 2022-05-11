@@ -1,0 +1,28 @@
+.carrousel {
+  width: 100%;
+  height: 415px;
+  overflow: hidden;
+  border-radius: 25px;
+  position: relative;
+  &__next,
+  &__prev {
+    background-color: unset;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+  &__next {
+    right: 0%;
+  }
+  &__prev {
+    margin-left: 40px;
+    left: 0%;
+  }
+  &__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

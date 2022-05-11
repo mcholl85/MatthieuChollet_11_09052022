@@ -3,7 +3,7 @@ import arrowOpen from '../../assets/img/arrow_open.png';
 import arrowClose from '../../assets/img/arrow_close.png';
 
 function Dropdown({ title, paragraph }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="dropdown">
