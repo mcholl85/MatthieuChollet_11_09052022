@@ -29,9 +29,9 @@ function About() {
     <main id="about">
       <section className="about-banner">
         <img
-          className="banner-footer__image"
+          className="about-banner__image"
           src={BannerFooter}
-          alt="Banner Footer"
+          alt="About Banner"
         />
       </section>
       <section className="about-infos">
