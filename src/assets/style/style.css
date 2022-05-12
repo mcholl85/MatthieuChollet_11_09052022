@@ -19,6 +19,10 @@ body {
   font-weight: 500;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 .error {
   margin-top: 100px;
   text-align: center;
