@@ -28,3 +28,23 @@
     white-space: pre-line;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .dropdown {
+    margin-bottom: 20px;
+    &__heading {
+      padding: 10px;
+      &__title {
+        font-size: 13px;
+      }
+      & > img {
+        height: 11px;
+      }
+    }
+    &__paragraph {
+      font-size: 12px;
+      line-height: 17px;
+      padding: 25px 0px 20px 12px;
+    }
+  }
+}

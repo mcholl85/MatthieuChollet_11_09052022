@@ -2,7 +2,7 @@
   margin: 0 100px;
 }
 
-.banner-footer {
+.about-banner {
   margin: 40px 0 30px;
   height: 222px;
   border-radius: 25px;
@@ -16,4 +16,25 @@
 
 .about-infos {
   margin: 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    margin: 0 20px;
+  }
+  .about-banner {
+    border-radius: 10px;
+    margin: 0;
+    &__image {
+      min-width: unset;
+      width: 100%;
+      height: 100%;
+      object-fit: none;
+      object-position: 100% 0%;
+    }
+  }
+
+  .about-infos {
+    margin: 20px 0;
+  }
 }

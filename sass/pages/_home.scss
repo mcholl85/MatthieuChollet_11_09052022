@@ -1,4 +1,4 @@
-.main {
+.home {
   margin: 0 100px;
 }
 
@@ -33,4 +33,41 @@
   margin-bottom: 50px;
   border-radius: 25px;
   background-color: $color-background-tertiary;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    margin: 0 20px;
+  }
+
+  .banner {
+    border-radius: 10px;
+    height: 110px;
+    margin: 0;
+    &__image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    &__title {
+      width: 225px;
+      font-size: 24px;
+      line-height: 24px;
+      left: unset;
+      transform: translate(0, -50%);
+      margin-left: 16px;
+      white-space: unset;
+    }
+  }
+
+  .gallery {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax($size-mobile-width-article, 1fr)
+    );
+    background-color: unset;
+    padding: 0;
+    margin: 22px 0;
+    gap: 20px;
+  }
 }

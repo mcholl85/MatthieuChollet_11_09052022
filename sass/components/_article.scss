@@ -22,9 +22,16 @@
     position: absolute;
   }
   &__title {
+    font-size: 18px;
     z-index: 1;
     color: $color-text-secondary;
     position: absolute;
     padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article {
+    height: $size-mobile-height-article;
   }
 }

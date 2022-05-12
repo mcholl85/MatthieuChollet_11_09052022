@@ -1,6 +1,14 @@
 .rate {
   display: inline-flex;
   gap: 10px;
-  &__star {
+}
+
+@media screen and (max-width: 768px) {
+  .rate {
+    gap: 5px;
+    &__star {
+      width: 15px;
+      height: 15px;
+    }
   }
 }

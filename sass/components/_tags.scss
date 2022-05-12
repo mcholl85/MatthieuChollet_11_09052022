@@ -12,3 +12,17 @@
     padding: 5px 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tags {
+    justify-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    &__p {
+      border-radius: 5px;
+      min-width: 84px;
+      font-size: 10px;
+      padding: 3px;
+    }
+  }
+}

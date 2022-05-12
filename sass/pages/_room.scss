@@ -25,3 +25,38 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .room {
+    margin: 20px;
+    &__header {
+      margin: 15px 0;
+      flex-wrap: wrap;
+      gap: 15px;
+      &__hosting {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    &__dropdowns {
+      margin: 0;
+      grid-template-columns: 1fr;
+      gap: 0;
+      & .dropdown__heading__title {
+        font-size: 13px;
+        line-height: 19px;
+      }
+      & .dropdown__paragraph {
+        font-size: 12px;
+        line-height: 17px;
+      }
+      & .dropdown__heading {
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

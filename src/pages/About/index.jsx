@@ -27,7 +27,7 @@ function About() {
 
   return (
     <main id="about">
-      <section className="banner-footer">
+      <section className="about-banner">
         <img
           className="banner-footer__image"
           src={BannerFooter}

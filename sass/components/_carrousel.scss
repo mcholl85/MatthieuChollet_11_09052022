@@ -26,3 +26,16 @@
     object-fit: cover;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .carrousel {
+    height: 255px;
+    border-radius: 10px;
+    button img {
+      height: 20px;
+    }
+    &__prev {
+      margin-left: 10px;
+    }
+  }
+}

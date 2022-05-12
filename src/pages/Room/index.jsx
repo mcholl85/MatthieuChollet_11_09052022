@@ -21,7 +21,7 @@ function Room() {
             <Infos title={room.title} location={room.location} />
             <Tags tags={room.tags} />
           </div>
-          <div>
+          <div className="room__header__hosting">
             <Host name={room.host.name} picture={room.host.picture} />
             <Rate rating={parseInt(room.rating)} />
           </div>

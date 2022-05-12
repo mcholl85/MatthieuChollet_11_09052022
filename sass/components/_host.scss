@@ -14,3 +14,16 @@
     border-radius: 50%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .host {
+    margin: 0;
+    &__name {
+      font-size: 12px;
+    }
+    &__picture {
+      height: 32px;
+      width: 32px;
+    }
+  }
+}

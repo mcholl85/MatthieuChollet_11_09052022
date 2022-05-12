@@ -4,7 +4,7 @@ import Rooms from '../../datas/logements.json';
 
 function Home() {
   return (
-    <main className="main">
+    <main className="home">
       <section className="banner">
         <img className="banner__image" src={Banner} alt="Banner Home" />
         <h1 className="banner__title medium">Chez vous, partout et ailleurs</h1>
