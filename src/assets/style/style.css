@@ -202,6 +202,7 @@ body {
   position: relative;
 }
 .carrousel__next, .carrousel__prev {
+  height: 100%;
   background-color: unset;
   border: 0;
   cursor: pointer;
@@ -456,7 +457,7 @@ body {
   margin: 10px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 76px;
+  gap: 6%;
 }
 .room__dropdowns .dropdown__heading__title, .room__dropdowns .dropdown__paragraph {
   font-size: 18px;

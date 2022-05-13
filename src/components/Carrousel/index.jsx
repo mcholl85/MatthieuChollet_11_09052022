@@ -8,16 +8,6 @@ function Carrousel({ pictures }) {
   return pictures.length > 1 ? (
     <section className="carrousel">
       <button
-        className="carrousel__next"
-        onClick={() =>
-          index === pictures.length - 1
-            ? updateIndex(0)
-            : updateIndex(index + 1)
-        }
-      >
-        <img src={arrowNext} alt="next button" />
-      </button>
-      <button
         className="carrousel__prev"
         onClick={() =>
           index === 0
@@ -26,6 +16,16 @@ function Carrousel({ pictures }) {
         }
       >
         <img src={arrowPrevious} alt="previous button" />
+      </button>
+      <button
+        className="carrousel__next"
+        onClick={() =>
+          index === pictures.length - 1
+            ? updateIndex(0)
+            : updateIndex(index + 1)
+        }
+      >
+        <img src={arrowNext} alt="next button" />
       </button>
       <img
         className="carrousel__picture"

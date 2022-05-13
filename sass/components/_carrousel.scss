@@ -6,6 +6,7 @@
   position: relative;
   &__next,
   &__prev {
+    height: 100%;
     background-color: unset;
     border: 0;
     cursor: pointer;
