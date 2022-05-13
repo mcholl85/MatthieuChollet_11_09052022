@@ -254,7 +254,7 @@ body {
   .tags {
     justify-items: center;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .tags__p {
     border-radius: 5px;
@@ -373,11 +373,13 @@ body {
 }
 
 .banner {
+  display: flex;
+  justify-content: center;
   position: relative;
   background-color: #000000;
   border-radius: 25px;
   overflow: hidden;
-  max-height: 223px;
+  height: 223px;
   margin-top: 60px;
   margin-bottom: 40px;
 }
@@ -386,13 +388,16 @@ body {
   opacity: 0.7;
 }
 .banner__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 100%;
   font-size: 48px;
   color: #ffffff;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
+  top: 0;
 }
 
 .gallery {
@@ -414,6 +419,7 @@ body {
     border-radius: 10px;
     height: 110px;
     margin: 0;
+    justify-content: flex-start;
   }
   .banner__image {
     height: 100%;
@@ -424,10 +430,7 @@ body {
     width: 225px;
     font-size: 24px;
     line-height: 24px;
-    left: unset;
-    transform: translate(0, -50%);
     margin-left: 16px;
-    white-space: unset;
   }
 
   .gallery {

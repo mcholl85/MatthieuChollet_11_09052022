@@ -3,11 +3,13 @@
 }
 
 .banner {
+  display: flex;
+  justify-content: center;
   position: relative;
   background-color: $color-background-secondary;
   border-radius: 25px;
   overflow: hidden;
-  max-height: 223px;
+  height: 223px;
   margin-top: 60px;
   margin-bottom: 40px;
   &__image {
@@ -15,13 +17,16 @@
     opacity: 0.7;
   }
   &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 100%;
     font-size: 48px;
     color: $color-text-secondary;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
+    top: 0;
   }
 }
 
@@ -44,6 +49,7 @@
     border-radius: 10px;
     height: 110px;
     margin: 0;
+    justify-content: flex-start;
     &__image {
       height: 100%;
       width: 100%;
@@ -53,10 +59,7 @@
       width: 225px;
       font-size: 24px;
       line-height: 24px;
-      left: unset;
-      transform: translate(0, -50%);
       margin-left: 16px;
-      white-space: unset;
     }
   }
 
